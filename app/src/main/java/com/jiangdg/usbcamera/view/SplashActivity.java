@@ -24,12 +24,6 @@ import java.util.Hashtable;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 
-
-/**
- * permission checking
- * Created by jiangdongguo on 2019/6/27.
- */
-
 public class SplashActivity extends AppCompatActivity {
     private static final String[] REQUIRED_PERMISSION_LIST = new String[]{
             Manifest.permission.WRITE_EXTERNAL_STORAGE,

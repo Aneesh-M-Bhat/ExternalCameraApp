@@ -8,7 +8,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center_horizontal|center_vertical"
-        android:text="Video Laryngoscope"
+        android:text="External Camera App"
         android:textSize="28sp"
         android:textStyle="bold" />
 
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal|center_vertical"
         android:layout_marginTop="5dp"
-        android:text="M Pooja ,4JK19EC026"
+        android:text="Aneesh M Bhat, 4JK19CS009"
         android:textSize="14sp"
         android:textStyle="italic" />
 
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal|center_vertical"
         android:layout_marginTop="5dp"
-        android:text="Aniruddh M Bhat ,4JK19EC010"
+        android:text="S Shivani Acharya, 4JK19CS041"
         android:textSize="14sp"
         android:textStyle="italic" />
 
@@ -45,17 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal|center_vertical"
         android:layout_marginTop="5dp"
-        android:text="Sejal A ,4JK19EC045"
-        android:textSize="14sp"
-        android:textStyle="italic" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|center_vertical"
-        android:layout_marginTop="5dp"
-        android:text="Sharan S Raikar ,4JK19EC046"
+        android:text="Sachin A, 4JK19CS042"
         android:textSize="14sp"
         android:textStyle="italic" />
 

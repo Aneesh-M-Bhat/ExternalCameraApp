@@ -21,12 +21,6 @@ import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * UncaughtException handler class
- * 
- * @author jiangdg on 2017/6/27.
- * 
- */
 public class CrashHandler implements UncaughtExceptionHandler {
 
 	public static final String TAG = "CrashHandler";
@@ -38,7 +32,6 @@ public class CrashHandler implements UncaughtExceptionHandler {
 	private Context mContext;
 	private Class<?> mainActivityClass;
 	private Map<String, String> infos = new HashMap<String, String>();
-
 
 	private CrashHandler() {
 	}
@@ -53,7 +46,6 @@ public class CrashHandler implements UncaughtExceptionHandler {
 		mDefaultHandler = Thread.getDefaultUncaughtExceptionHandler();
 		Thread.setDefaultUncaughtExceptionHandler(this);
 	}
-
 
 	@Override
 	public void uncaughtException(Thread thread, Throwable ex) {
